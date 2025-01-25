@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github api</title>
+    <style>
+        body{
+            background-color: black;
+            color: #fff;
+        }
+        #input{
+            color: #fff;
+            background-color: #000;
+            border: 1px solid #dbb6b6;
+            box-shadow:  0 0 50px #00b894, 0 0 25px #00b894, 0 0 100px #00b894, 0 0 280px #00b894;
+            border-radius: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            width: 250px;
+            padding: 10px 10px;
+        }
+        #submit{
+            box-shadow:  0 0 50px #ff5454, 0 0 25px #ff5454, 0 0 100px #ff5454, 0 0 280px #ff5454;
+            color: #fff;
+            background-color: #000;
+            border: 1px solid rgb(243, 30, 30);
+            border-radius: 20px;
+            padding: 10px 15px;
+        }
+        #submit:hover{
+            box-shadow:  0 0 50px red, 0 0 25px red, 0 0 100px red, 0 0 280px red;
+            color: #000;
+            background-color: red;
+            border: 1px solid #fff;
+            transition: 0.3s;
+        }
+        .image{
+            box-shadow:  0 0 50px #1e272e, 0 0 25px #1e272e, 0 0 90px #1e272e, 0 0 280px #1e272e;
+            width: 200px;
+            height: 200px;
+            border: 1px solid none;
+            border-radius: 100px;
+        }
+        .container{
+            box-shadow:  0 0 50px #6c5ce7, 0 0 25px #6c5ce7, 0 0 100px #6c5ce7, 0 0 280px #6c5ce7;
+            color: #000;
+            background-color: #fff;
+            border: 1px solid #000;
+            border-radius: 20px;
+            width: 300px;
+            padding: 10px 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <center>
+   <input type="text" placeholder="Enter your github account" id="input">
+   <button id="submit" onclick="btn()">Submit</button>
+   <br><br><br><br>
+   <div class="container"></div>
+</center>
+    <script src="app.js"></script>
+</body>
+</html>
